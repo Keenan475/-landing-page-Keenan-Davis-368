@@ -1,0 +1,242 @@
+iframe{
+    padding-top: 10px; 
+    width: 100%; 
+  }
+  body{
+    margin: auto; 
+    width: 900px; 
+  }
+  #header-img{
+  width: 100px; 
+  object-fit: contain; 
+  }
+  #header-banner{
+    width: 100%; 
+  }
+  .divider{
+    border-bottom: 2px solid black;
+    
+  }
+  #Hardy{
+    padding-top: 20px; 
+  }
+  .flexbox-container{
+    display: flex; 
+  }
+  
+  header{
+  position: fixed;
+  background-color: white; 
+  width: 100%; 
+   
+  }
+  #nav-bar{
+   display: flex;
+   margin-left: 30px; 
+   align-items: flex-start;  
+   flex-direction: column;
+   position: fixed; 
+   justify-content: space-around; 
+   top: 0; 
+   padding: 10px;  
+  }
+  .nav-link{
+   font-family: Julius Sans One, serif;
+   text-decoration: none; 
+   padding: 0 10px; 
+   font-size: 20px; 
+  }
+  ul{
+    list-style: none; 
+    display: flex; 
+  
+  }
+  p{
+    font-family: Libre Baskerville;
+    font-size: 14px; 
+  }
+  .price{
+    font-family: Julius Sans One, serif;
+    font-weight: bold; 
+  }
+  .sub-head{
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+  label{
+    font-family:  Julius Sans One, serif;
+    font-size: 20px; 
+   
+  }
+  .label-div{
+    padding-top: 15px; 
+  }
+  #button-div{
+  padding-top: 15px; 
+  }
+  h2{
+    font-size: 17px; 
+  }
+  @media (max-width: 480px) {
+      body {
+          font-size: 12px; 
+      }
+  
+  
+  }
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  .pricing-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .price-card {
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 30px;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    min-width: 200px; /* Prevent cards from becoming too narrow */
+    max-width: 400px; /* Prevent cards from becoming too wide on large screens */
+  }
+  .card-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+  }
+  
+  .card-title h2 {
+    font-size: 1.25em;
+    margin: 0;
+  }
+  .price {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 30px 0 20px;
+  }
+  
+  .price span {
+    font-size: 0.4em;
+    font-weight: normal;
+    color: #666;
+  }
+  .features {
+    list-style: none;
+    margin: 20px 0 30px;
+  }
+  .features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .features li:last-child {
+    border-bottom: none;
+  }
+  .cta-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .cta-button:hover {
+    opacity: 0.9;
+  }
+  .price-card:nth-child(1) .card-title {
+    background-color: black; 
+  }
+  
+  .price-card:nth-child(2) .card-title {
+    background-color: black; 
+  }
+  
+  .price-card:nth-child(3) .card-title {
+    background-color: black; 
+  }
+  
+  .price-card:nth-child(1) {
+    background-color: whtie; 
+  }
+  
+  .price-card:nth-child(2) {
+    background-color: white;
+  }
+  
+  .price-card:nth-child(3) {
+    background-color: white; 
+  }
+  .price-card:nth-child(1) .cta-button {
+    background-color: #3498db;
+  }
+  
+  .price-card:nth-child(2) .cta-button {
+    background-color: #3498db;
+  }
+  
+  .price-card:nth-child(3) .cta-button {
+    background-color: #3498db;
+  }
+  opy
+  /* Mobile View (default, up to 767px) */
+  /* Already set width: 100% in the base .price-card style */
+  
+  /* Tablet View (768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .price-card {
+      width: 45%;
+      margin: 0 2% 30px 2%;
+    }
+  
+    .price-card:nth-child(3) {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* Desktop View (992px and above) */
+  @media (min-width: 992px) {
+    .price-card {
+      width: 30%;
+      margin: 0 1.5% 30px 1.5%;
+    }
+  }
+  .price-card {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .price-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  .card-img{
+    margin-top: 20px; 
+  
+  }
+  .divider{
+    margin
+    border-bottom: 2px solid black; 
+  }
+  h1{
+    padding-bottom: 25px; 
+  }
